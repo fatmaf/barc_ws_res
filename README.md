@@ -29,16 +29,38 @@ Depending on your ubuntu version:
 * Kinetic : http://wiki.ros.org/kinetic/Installation/Ubuntu
 * Indigo : http://wiki.ros.org/indigo/Installation/Ubuntu
 
-## Getting Started with ROS 
+Please follow all the way through till environment setup (including the environment setup). 
+It is recommended that you add the line `source /opt/ros/kinectic/setup.bash` or `source /opt/ros/indigo/setup.bash` (depending on your installation) to your .bashrc file.
 
-### Testing your installation 
+## Getting Started with ROS 
+To test your installation you can open up terminal (pressing control, alt, t) and run the command `roscore` . 
 
 ### Creating a workspace 
+Lets create the working directory for this workshop. 
+```mkdir -p ~/ros_ws/src```
+
+You can navigate to this directory by `cd ~/ros_ws/src` 
+
+### Installing the Kinect Driver 
+Download the script and run it 
 
 ## Getting started with the turtlebot
+Install the following: 
+```sudo apt-get install ros-indigo-turtlebot ros-indigo-turtlebot-apps ros-indigo-turtlebot-interactions ros-indigo-turtlebot-simulator ros-indigo-kobuki-ftdi ros-indigo-rocon-remocon ros-indigo-rocon-qt-library ros-indigo-ar-track-alvar-msgs```
+
+If you have kinetic you will need to remove some of these and replace indigo with kinectic in the command above. 
 
 ### Teleop 
-
+Make sure ros is not running. Open two new terminals and run the following (one command in each)
+```roslaunch turtlebot_bringup minimal.launch 
+roslaunch turtlebot_teleop keyboard_teleop.launch
+```
+You should now be able to move the turtlebot 
+#### Simulation 
+If you don't have the actual robot , you can try this in simulation 
+```roslaunch turtlebot_gazebo turtlebot_world.launch
+roslaunch turtlebot_teleop keyboard_teleop.launch
+```
 ### Creating a map
 A pre built map of Sloman Lounge is here: 
 
