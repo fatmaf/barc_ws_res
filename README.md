@@ -29,3 +29,29 @@ Depending on your ubuntu version:
 * Kinetic : http://wiki.ros.org/kinetic/Installation/Ubuntu
 * Indigo : http://wiki.ros.org/indigo/Installation/Ubuntu
 
+## Getting Started with ROS 
+
+### Testing your installation 
+
+### Creating a workspace 
+
+## Getting started with the turtlebot
+
+### Teleop 
+
+### Creating a map
+A pre built map of Sloman Lounge is here: 
+
+### Navigation 
+
+### Simulator 
+
+
+## Get 'Hacking' 
+
+
+* Have the turtlebot navigate to different locations in Sloman Lounge and place obstacles in its path. The robot should be able to detect that an obstacle is in its path and determine whether it is a human or an object. If it is human it should ask the human to move. Make sure that the robot can get to the location if there is still any path available. 
+* Simulate a door by blocking the entire path of the robot or using one of the actual doors in the lounge, and have the robot navigate when the door is open or closed. 
+* Make a person follower: Have the turtlebot follow a person around the lounge and stop when the person gives a sign (like hand gesture or says stop). The turtlebot should be able to go back to its original location afterwards.
+* Facial Recognition and following: Have the turtlebot recognise faces (two is fine) and follow one of the faces (like rotate if the person goes behind the robot). You could place the robot on a table to do this. 
+
