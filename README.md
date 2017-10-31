@@ -7,18 +7,22 @@ We recommend ROS and Ubuntu. ROS does have not so great support for other operat
 In case you do not have Ubuntu or ROS installed. 
 
 If you do not have Ubuntu and don't want to install it. You can get a virtual machine (vm) image. 
+
 ### Virtual Machine 
 * Download virtualbox (https://www.virtualbox.org/)
 * Grab the image for ubuntu with ROS indigo here: https://nootrix.com/diy-tutos/ros-indigo-virtual-machine/
 
-**This is not the latest version. If you'd like a newer version, you may have to install the machine yourself. 
-You can grab an image here http://www.osboxes.org/ubuntu/ **
+__This is not the latest version. If you'd like a newer version, you may have to install the machine yourself. 
+You can grab an image here http://www.osboxes.org/ubuntu/ __
 
 ### Installing Ubuntu 
+
 Instructions here : https://builtvisible.com/the-ubuntu-installation-guide/
+
 You can download 14.04 or 16.04. We reccommend the latest. 
-__With Ubuntu 14.04 you will need to install ROS Indigo__
-__With Ubuntu 16.04 you will need to install ROS Kinetic__
+
+* _With Ubuntu 14.04 you will need to install ROS Indigo_
+* _With Ubuntu 16.04 you will need to install ROS Kinetic_
 
 ### Installing ROS 
 Depending on your ubuntu version: 
