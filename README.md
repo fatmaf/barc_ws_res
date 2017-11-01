@@ -52,13 +52,15 @@ If you have kinetic you will need to remove some of these and replace indigo wit
 
 ### Teleop 
 Make sure ros is not running. Open two new terminals and run the following (one command in each)
-```roslaunch turtlebot_bringup minimal.launch 
+```
+roslaunch turtlebot_bringup minimal.launch 
 roslaunch turtlebot_teleop keyboard_teleop.launch
 ```
 You should now be able to move the turtlebot 
 #### Simulation 
 If you don't have the actual robot , you can try this in simulation 
-```roslaunch turtlebot_gazebo turtlebot_world.launch
+```
+roslaunch turtlebot_gazebo turtlebot_world.launch
 roslaunch turtlebot_teleop keyboard_teleop.launch
 ```
 ### Creating a map
