@@ -10,4 +10,6 @@
 <!-- replace the path in value with the location of your map file-->
 </include>
 
+ <!-- visualize --> 
+<include file="$(find turtlebot_rviz_launchers)/launch/view_navigation.launch"/>
 </launch>
