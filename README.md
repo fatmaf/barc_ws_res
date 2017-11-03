@@ -63,21 +63,28 @@ If you don't have the actual robot , you can try this in simulation
 roslaunch turtlebot_gazebo turtlebot_world.launch
 roslaunch turtlebot_teleop keyboard_teleop.launch
 ```
-### Creating a map
+### Map of Sloman Lounge 
 A pre built map of Sloman Lounge is here: 
 
-### Navigation 
+### Moving the robot 
+Download turtlebot_map_startup.launch here: https://github.com/fatmaf/barc_ws_res/blob/master/turtlebot_map_startup.launch 
+Place it in your working directory and use roslaunch to launch it. 
 
-### Simulator 
+You can read more about roslaunch here: http://wiki.ros.org/roslaunch
 
+Use the 2D Nav Goal button to send the robot to a goal location on the map. It'll start moving instantly to that location. 
 
-## Get 'Hacking' 
+Now write a program that can send the robot to a single location: 
+Move base is reponsible for moving the robot http://wiki.ros.org/move_base 
 
-* Have the turtlebot navigate to different locations in Sloman Lounge and place obstacles in its path. The robot should be able to detect that an obstacle is in its path and determine whether it is a human or an object. If it is human it should ask the human to move. Make sure that the robot can get to the location if there is still any path available. 
+If you feel very lost you can look here for more detailed help: http://learn.turtlebot.com/ (you can find code that does exactly this in python, just have to look)
 
-* Simulate a door by blocking the entire path of the robot or using one of the actual doors in the lounge, and have the robot navigate when the door is open or closed. 
+Here is c++ code that helps but enter at your own risk http://wiki.ros.org/navigation/Tutorials/SendingSimpleGoals
 
-* Make a person follower: Have the turtlebot follow a person around the lounge and stop when the person gives a sign (like hand gesture or says stop). The turtlebot should be able to go back to its original location afterwards.
-
-* Facial Recognition and following: Have the turtlebot recognise faces (two is fine) and follow one of the faces (like rotate if the person goes behind the robot). You could place the robot on a table to do this. 
+### Turtlebot Race 
+Have your turtlebot visit the following locations in order: 
+* a
+* b 
+* c 
+* d
 
