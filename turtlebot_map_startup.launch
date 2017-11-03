@@ -1,0 +1,13 @@
+<launch>
+ 
+ <!-- launch turtlebot setup -->
+ <include file="$(find turtlebot_bringup)/launch/minimal.launch">
+</include>
+
+<!-- launch the navigation bit -->
+<include file="$(find turtlebot_navigation)/launch/amcl_demo.launch">
+<arg name="map_file" value="/home/turtlebot/catkin_ws/src/configs/my_map2.yaml"/> 
+<!-- replace the path in value with the location of your map file-->
+</include>
+
+</launch>
