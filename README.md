@@ -15,8 +15,8 @@ If you do not have Ubuntu and don't want to install it. You can get a virtual ma
 * Download virtualbox (https://www.virtualbox.org/)
 * Grab the image for ubuntu with ROS indigo here: https://nootrix.com/diy-tutos/ros-indigo-virtual-machine/
 
-__This is not the latest version. If you'd like a newer version, you may have to install the machine yourself. 
-You can grab an image here http://www.osboxes.org/ubuntu/ __
+_This is not the latest version. If you'd like a newer version, you may have to install the machine yourself. 
+You can grab an image here http://www.osboxes.org/ubuntu/ _
 
 ### Installing Ubuntu 
 
@@ -49,9 +49,17 @@ Download the script and run it
 
 ## Getting started with the turtlebot
 Install the following: 
-```sudo apt-get install ros-indigo-turtlebot ros-indigo-turtlebot-apps ros-indigo-turtlebot-interactions ros-indigo-turtlebot-simulator ros-indigo-kobuki-ftdi ros-indigo-rocon-remocon ros-indigo-rocon-qt-library ros-indigo-ar-track-alvar-msgs```
+```
+sudo apt-get install ros-indigo-turtlebot ros-indigo-turtlebot-apps ros-indigo-turtlebot-interactions ros-indigo-turtlebot-simulator ros-indigo-kobuki-ftdi ros-indigo-rocon-remocon ros-indigo-rocon-qt-library ros-indigo-ar-track-alvar-msgs
+```
 
-If you have kinetic you will need to remove some of these and replace indigo with kinectic in the command above. 
+If you want to install everything turtlebot you can do: 
+```
+sudo apt-get install ros-indigo-turtlebot* 
+```
+
+If you have kinetic you will need to replace indigo with kinectic in the command above. Some of these packages are not available in kinetic. 
+For kinectic you may have to use ``apt`` instead of ```apt-get``
 
 ### Teleop 
 Make sure ros is not running. Open two new terminals and run the following (one command in each)
