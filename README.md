@@ -1,4 +1,7 @@
-# BARC Robotics Workshop - Nov 2017
+# BARC Robotics Workshop
+##### 4 Nov 2017
+
+Introduction Slides: https://github.com/fatmaf/barc_ws_res/blob/master/BarcWorkshop.pdf
 
 ## Setting Up 
 
