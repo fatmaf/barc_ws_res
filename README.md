@@ -81,6 +81,11 @@ A pre built map of Sloman Lounge is here:
 https://github.com/fatmaf/barc_ws_res/blob/master/workshop_map.pgm
 https://github.com/fatmaf/barc_ws_res/blob/master/workshop_map.yaml
 
+There is a cleaner version of the map available at 
+https://github.com/fatmaf/barc_ws_res/blob/master/workshop_map_repaired.pgm
+
+You will have to make sure that the yaml and pgm files have the same names and address inside the yaml. 
+
 ### Moving the robot 
 Download turtlebot_map_startup.launch here: https://github.com/fatmaf/barc_ws_res/blob/master/turtlebot_map_startup.launch 
 Place it in your working directory and use roslaunch to launch it. 
