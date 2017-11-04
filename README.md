@@ -16,7 +16,7 @@ If you do not have Ubuntu and don't want to install it. You can get a virtual ma
 * Grab the image for ubuntu with ROS indigo here: https://nootrix.com/diy-tutos/ros-indigo-virtual-machine/
 
 _This is not the latest version. If you'd like a newer version, you may have to install the machine yourself. 
-You can grab an image here http://www.osboxes.org/ubuntu/ _
+You can grab an image here_ http://www.osboxes.org/ubuntu/ 
 
 ### Installing Ubuntu 
 
