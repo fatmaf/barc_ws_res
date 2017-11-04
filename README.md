@@ -76,6 +76,9 @@ roslaunch turtlebot_teleop keyboard_teleop.launch
 ```
 ### Map of Sloman Lounge 
 A pre built map of Sloman Lounge is here: 
+(download both files, you may need to make a few changes to the .yaml (the address of the pgm file))
+https://github.com/fatmaf/barc_ws_res/blob/master/workshop_map.pgm
+https://github.com/fatmaf/barc_ws_res/blob/master/workshop_map.yaml
 
 ### Moving the robot 
 Download turtlebot_map_startup.launch here: https://github.com/fatmaf/barc_ws_res/blob/master/turtlebot_map_startup.launch 
