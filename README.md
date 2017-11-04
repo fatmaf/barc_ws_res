@@ -45,7 +45,8 @@ Lets create the working directory for this workshop.
 You can navigate to this directory by `cd ~/ros_ws/src` 
 
 ### Installing the Kinect Driver 
-Download the script and run it 
+Download the script and run it.
+https://github.com/fatmaf/barc_ws_res/blob/master/install_kinect_drivers.sh
 
 ## Getting started with the turtlebot
 Install the following: 
